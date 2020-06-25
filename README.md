@@ -69,7 +69,7 @@ Arquivo com SQL pode ser encontrado em:
         id int auto_increment primary key,
         nome varchar (100),
         email varchar (100),
-        senha varchar (50)
+        senha varchar (256)
     );
     ```
 
